@@ -21,6 +21,7 @@
 #include "config.h"
 #include "linux_syscall_numbers.h"
 
+#define HAVE_PREADV
 #if !defined(HAVE_PREADV)
 int preadv(int fd, const struct iovec *iov, int iovcnt, off_t offset)
 {

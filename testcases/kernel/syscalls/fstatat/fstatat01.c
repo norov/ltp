@@ -58,6 +58,7 @@ static const char *filenames[TEST_CASES];
 static const int expected_errno[] = { 0, 0, ENOTDIR, EBADF, EINVAL, 0 };
 static const int flags[] = { 0, 0, 0, 0, 9999, 0 };
 
+#define HAVE_FSTATAT
 #if !defined(HAVE_FSTATAT)
 #if (__NR_fstatat64 > 0)
 int fstatat(int dirfd, const char *filename, struct stat64 *statbuf, int flags)
