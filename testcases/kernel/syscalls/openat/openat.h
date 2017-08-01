@@ -23,7 +23,7 @@
 
 #include <sys/types.h>
 #include "config.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #if !defined(HAVE_OPENAT)
 int openat(int dirfd, const char *pathname, int flags, mode_t mode)

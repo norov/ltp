@@ -44,7 +44,7 @@
 #include "config.h"
 #include "test.h"
 #include "safe_macros.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "numa_helper.h"
 #include "migrate_pages_common.h"
 

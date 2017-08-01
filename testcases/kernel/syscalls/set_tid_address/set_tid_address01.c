@@ -42,7 +42,7 @@
 #include <errno.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "set_tid_address01";
 int testno;

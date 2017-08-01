@@ -48,7 +48,7 @@
 #include <errno.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "signal06";
 int TST_TOTAL = 5;

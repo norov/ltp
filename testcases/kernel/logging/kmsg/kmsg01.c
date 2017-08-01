@@ -44,7 +44,7 @@
 #include <unistd.h>
 #include "config.h"
 #include "tst_test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #define MSG_PREFIX "LTP kmsg01 "
 #define MAX_MSGSIZE 4096

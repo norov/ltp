@@ -35,7 +35,7 @@
 
 #include "test.h"
 #include "config.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "safe_macros.h"
 #include "lapi/fcntl.h"
 

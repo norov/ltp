@@ -72,7 +72,7 @@
 #include <errno.h>
 #include <sys/syscall.h>
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 static void setup();
 static void cleanup();

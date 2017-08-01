@@ -22,7 +22,7 @@
 #define MKNODAT_H
 
 #include <sys/types.h>
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #if !defined(HAVE_MKNODAT)
 int mknodat(int dirfd, const char *filename, mode_t mode, dev_t dev)

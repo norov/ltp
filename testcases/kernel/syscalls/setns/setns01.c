@@ -34,7 +34,7 @@
 #include <string.h>
 #include "config.h"
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "safe_macros.h"
 
 char *TCID = "setns01";

@@ -63,7 +63,7 @@
 
 #include "test.h"
 #include "lapi/fcntl.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #define TFD_CLOEXEC O_CLOEXEC
 

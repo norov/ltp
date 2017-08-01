@@ -29,7 +29,7 @@
 # include <linux/keyctl.h>
 #endif
 #include "tst_test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 static void verify_add_key(void)
 {

@@ -22,7 +22,7 @@
 #define VMSPLICE_H
 
 #include "config.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #include "lapi/iovec.h"
 

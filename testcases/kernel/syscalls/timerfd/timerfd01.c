@@ -43,7 +43,7 @@
 #include <time.h>
 #include <errno.h>
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #define cleanup tst_exit
 

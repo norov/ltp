@@ -45,7 +45,7 @@
 #include <stdlib.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "newuname01";
 int testno;

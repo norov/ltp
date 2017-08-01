@@ -56,7 +56,7 @@
 #include <errno.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "ltp_signal.h"
 
 char *TCID = "rt_sigprocmask02";

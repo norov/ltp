@@ -40,7 +40,7 @@
 #include <string.h>
 #include <sys/stat.h>
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "utimensat01";
 int TST_TOTAL = 0;

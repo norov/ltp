@@ -25,7 +25,7 @@
 #include <sys/wait.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "exit_group01";
 int testno;

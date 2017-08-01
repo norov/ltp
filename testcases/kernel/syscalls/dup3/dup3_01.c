@@ -60,7 +60,7 @@
 
 #include "test.h"
 #include "lapi/fcntl.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "dup3_01";
 int TST_TOTAL = 1;

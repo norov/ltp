@@ -28,7 +28,7 @@
 #include "test.h"
 #include "old_module.h"
 #include "safe_macros.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #define DUMMY_MOD		"dummy_del_mod"
 #define DUMMY_MOD_KO		"dummy_del_mod.ko"

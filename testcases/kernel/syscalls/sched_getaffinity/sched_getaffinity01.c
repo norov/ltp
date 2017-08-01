@@ -50,7 +50,7 @@
 #include <unistd.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "sched_getaffinity01";
 int TST_TOTAL = 1;

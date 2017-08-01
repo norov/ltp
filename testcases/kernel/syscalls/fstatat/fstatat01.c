@@ -35,7 +35,7 @@
 #include "config.h"
 #include "test.h"
 #include "safe_macros.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #define TEST_CASES 6
 #ifndef AT_FDCWD

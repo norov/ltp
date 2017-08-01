@@ -9,7 +9,7 @@
 
 #define CLEANUP cleanup
 #include "config.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #ifndef NSEC_PER_SEC
 #define NSEC_PER_SEC (1000000000L)
@@ -59,7 +59,7 @@ const char *get_clock_str(const int clock_id)
 	}
 }
 
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #include <time.h>
 #include <unistd.h>

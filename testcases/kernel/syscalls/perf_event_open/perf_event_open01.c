@@ -43,7 +43,7 @@
 #endif
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "safe_macros.h"
 
 char *TCID = "perf_event_open01";

@@ -19,7 +19,7 @@
 #ifndef __SCHED_H__
 #define __SCHED_H__
 
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include <stdint.h>
 #include <inttypes.h>
 

@@ -24,7 +24,7 @@
 #include <errno.h>
 #include <stdlib.h>
 #include "config.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 static void setup(void);
 static void cleanup(void);

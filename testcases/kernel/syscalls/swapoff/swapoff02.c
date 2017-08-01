@@ -31,7 +31,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "safe_macros.h"
 
 static void setup(void);

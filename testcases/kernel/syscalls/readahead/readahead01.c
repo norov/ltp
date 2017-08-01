@@ -38,7 +38,7 @@
 #include "config.h"
 #include "test.h"
 #include "safe_macros.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "readahead01";
 int TST_TOTAL = 1;

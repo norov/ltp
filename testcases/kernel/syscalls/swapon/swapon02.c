@@ -33,7 +33,7 @@
 #include <sys/utsname.h>
 #include <signal.h>
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 #include "safe_macros.h"
 #include "libswapon.h"
 

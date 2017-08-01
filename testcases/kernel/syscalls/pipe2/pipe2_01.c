@@ -69,7 +69,7 @@
 
 #include "test.h"
 #include "lapi/fcntl.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "pipe2_01";
 int testno;

@@ -50,7 +50,7 @@
 
 #include "test.h"
 #include "safe_macros.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 #define MNTPOINT "mntpoint"
 #define TESTFILE1 "testfile1"

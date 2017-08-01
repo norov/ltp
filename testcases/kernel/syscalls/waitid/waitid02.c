@@ -48,7 +48,7 @@
 #include <sys/stat.h>
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 struct testcase_t {
 	const char *msg;

@@ -19,7 +19,7 @@
  */
 
 #include "test.h"
-#include "lapi/syscalls.h"
+#include "linux_syscall_numbers.h"
 
 char *TCID = "setns_check";
 
