@@ -21,6 +21,7 @@
 #include "config.h"
 #include "linux_syscall_numbers.h"
 
+#define HAVE_PWRITEV
 #if !defined(HAVE_PWRITEV)
 int pwritev(int fd, const struct iovec *iov, int iovcnt, off_t offset)
 {
