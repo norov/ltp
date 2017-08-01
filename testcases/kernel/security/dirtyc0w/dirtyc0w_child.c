@@ -22,6 +22,7 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <string.h>
+#include <stdint.h>
 #include <stdlib.h>
 #include <pwd.h>
 
